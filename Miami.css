@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: Opx;
+    background-image: url("sup6.webp");
+    background-attachment: fixed;
+}
+
+a:link{
+    color: white;
+}
+
+#header{
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    padding: 0px;
+    background-image: url("logo.png");
+    background-size: 100%;
+    box-shadow: 0px 3px 5px black;
+}
+
+/*
+    menu
+*/
+
+ul{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    height: 30px; 
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+li > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li > a:hover{
+    text-decoration: none;
+}
+
+li > a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+    background-color: rgba(2, 88, 68, 0.4);
+    color: rgb(168, 81, 31);
+}
+
+
+#menubarre{
+    background-color: rgba(6, 158, 120, 0.6);
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    background-image: url(logo.png);
+}
+
+#footer{
+    width: 100%;
+    height: 300px;
+    background-image: url("sup6.jpg");
+    background-size: cover; 
+}
+
+#nuance{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(6, 158, 120, 0.6);
+}
+
+#adage{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    margin-left: 50%;
+}
+
+
+/*
+   le corps de la page
+*/
+
+#content{
+    margin: auto;
+    width: 1000px;
+    height: 5660px;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+p{
+    margin-top: 50px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+#plage, #air, #culture, #detente{
+    width: 900px;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+#plage{
+    height: 1300px;    
+}
+
+#air{
+    height: 1330px; 
+}
+
+#culture{
+    height: 1130px;
+}
+
+#detente{
+    height: 500px;
+}
+
+
+h1{
+    width: 900px;
+    border-bottom: 2px solid white;
+    margin-top: 40px;
+}

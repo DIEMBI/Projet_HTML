@@ -1,0 +1,330 @@
+body{
+    margin: 0px;
+    background-image: url("sup2.png");
+    background-attachment: fixed;
+}
+
+a:link{
+    color: white;
+}
+
+#header{
+    overflow: hidden;
+    width: 100%;
+    height: 620px;
+    padding: 0px;
+    background-image: url("logo.png");
+    background-size: 100%;
+    box-shadow: 0px 3px 5px black;
+    padding-top: 40px;
+}
+
+#soustitre{
+    width: 700px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: auto;
+}
+
+/*
+    menu
+*/
+
+ul{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    height: 30px; 
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+li > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li > a:hover{
+    text-decoration: none;
+}
+
+li > a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+    background-color: rgba(252, 164, 33, 0.4);
+    color: rgb(168, 81, 31);
+}
+
+
+#menubarre{
+    background-color: rgba(190, 106, 67, 0.6);
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    background-image: url(logo.png);
+}
+
+#logo{
+    display: block;
+    margin: auto;
+}
+
+#footer{
+    width: 100%;
+    height: 250px;
+    background-image: url("sup2.png");
+    background-size: cover; 
+}
+
+#nuance{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(134, 76, 48, 0.664);
+}
+
+#adage{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    margin-left: 50%;
+}
+
+/*
+   le corps de la page
+*/
+
+#content{
+    margin: auto;
+    width: 1100px;
+    padding-top: 50px;
+    height: 2700px;
+    background-color: rgba(20, 20, 60, 0.4);
+}
+
+#video{
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+#paris{
+    width: 980px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+}
+
+#paris:hover{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: rgba(20, 20, 60, 0.4);
+    box-shadow: 10px 10px 10px black;
+
+}
+
+#textparis{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 25px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#imgparis{
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+#textparis, #imgparis{
+    float: left;
+}
+
+#dubai{
+    width: 975px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+#dubai:hover{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: rgba(20, 20, 60, 0.4);
+    box-shadow: 10px 10px 10px black;
+
+}
+
+#textdubai{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 25px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#imgdubai{
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+#textdubai, #imgdubai{
+    float: left;
+}
+
+#montreal{
+    width: 975px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+#montreal:hover{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: rgba(20, 20, 60, 0.4);
+    box-shadow: 10px 10px 10px black;
+}
+
+#textmontreal{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 25px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#imgmontreal{
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+#textmontreal, #imgmontreal{
+    float: left;
+}
+
+#miami{
+    width: 975px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+#miami:hover{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: rgba(20, 20, 60, 0.4);
+    box-shadow: 10px 10px 10px black;
+}
+
+#textmiami{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 25px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#imgmiami{
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+#textmiami, #imgmiami{
+    float: left;
+}
+
+#tokyo{
+    width: 975px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+#tokyo:hover{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: rgba(20, 20, 60, 0.4);
+    box-shadow: 10px 10px 10px black;
+}
+
+
+#texttokyo{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 25px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#imgtokyo{
+    width: 400px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+#texttokyo, #imgtokyo{
+    float: left;
+}
+#clipart1{
+    width: 350px;
+   margin-left: 10% ;
+   border-radius: 25px;
+   margin-top: 25%;
+}
+#dub{
+    width: 40px;
+}
